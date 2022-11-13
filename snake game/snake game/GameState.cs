@@ -100,7 +100,7 @@ namespace snake_game
 
         private Direction GetLastDirection()
         {
-            if (dirChange.Count == 0)
+            if (dirChages.Count == 0)
             {
                 return Dir;
             }
