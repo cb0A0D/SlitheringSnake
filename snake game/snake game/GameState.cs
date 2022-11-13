@@ -16,7 +16,7 @@ namespace snake_game
         public int Score { get; private set; }
         public bool GameOver { get; private set; }
 
-        private readonly LinkedList<Direction> dirChages = new LinkedList<Direction>();
+        private readonly LinkedList<Direction> dirChanges = new LinkedList<Direction>();
         private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
         private readonly Random random = new Random();
 
@@ -100,17 +100,17 @@ namespace snake_game
 
         private Direction GetLastDirection()
         {
-            if (dirChages.Count == 0)
+            if (dirChanges.Count == 0)
             {
                 return Dir;
             }
 
-            return dirChages.Last.Value;
+            return dirChanges.Last.Value;
         }
 
         private bool CanChageDirection(Direction newDir)
         {
-            if (dirChages.Count == 2)
+            if (dirChanges.Count == 2)
             {
                 return false;
             }
@@ -122,7 +122,7 @@ namespace snake_game
         {
             if (CanChageDirection(dir))
             {
-                dirChages.AddLast(dir);
+                dirChanges.AddLast(dir);
             }
         }
 
@@ -148,10 +148,10 @@ namespace snake_game
 
         public void Move()
         {
-            if (dirChages.Count > 0)
+            if (dirChanges.Count > 0)
             {
-                Dir = dirChages.First.Value;
-                dirChages.RemoveFirst();
+                Dir = dirChanges.First.Value;
+                dirChanges.RemoveFirst();
             }
 
             Position newHeadPos = HeadPositions().Translate(Dir);
