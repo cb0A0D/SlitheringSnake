@@ -1,0 +1,17 @@
+D:\Users\luinw\source\repos\snake game\snake game\bin\Debug\snake game.exe.config
+D:\Users\luinw\source\repos\snake game\snake game\bin\Debug\snake game.exe
+D:\Users\luinw\source\repos\snake game\snake game\bin\Debug\snake game.pdb
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.csproj.AssemblyReference.cache
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.csproj.SuggestedBindingRedirects.cache
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\MainWindow.g.cs
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\App.g.cs
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game_MarkupCompile.cache
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game_MarkupCompile.lref
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\App.baml
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\MainWindow.baml
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.g.resources
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake_game.Properties.Resources.resources
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.csproj.GenerateResource.cache
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.csproj.CoreCompileInputs.cache
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.exe
+D:\Users\luinw\source\repos\snake game\snake game\obj\Debug\snake game.pdb
