@@ -30,10 +30,10 @@ namespace snake_game
 
         private readonly Dictionary<Direction, int> dirToRotation = new Dictionary<Direction, int>()
         {
-            {Direction Up, 0 },
-            {Direction Right, 90 },
-            {Direction Down, 180 },
-            {Direction Left, 270 }
+            {Direction.Up, 0 },
+            {Direction.Right, 90 },
+            {Direction.Down, 180 },
+            {Direction.Left, 270 }
         };
 
         private readonly int rows = 15, cols = 15;
